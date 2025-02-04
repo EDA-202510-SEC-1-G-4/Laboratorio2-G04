@@ -115,6 +115,10 @@ def last_book(app):
     """
     Devuelve el último libro cargado en el conjunto de libros
     """
+
+    # TODO: Mods de Est-2 en el Lab 2
+    last = last_book(app)
+    print("Último libro cargado:\n" + str(last) + "\n")
     pass
 
 
